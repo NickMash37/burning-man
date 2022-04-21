@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  background: url(../assets/header-bg.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 900px;
+}
+
+.wrapper {
+  width: 1169px;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 57px;
+  color: #fff;
+}
+
+header .header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 405px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-info ul li {
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+header .header-phone {
+  font-size: 17px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header-desc {
+  width: 511px;
+  height: 257px;
+  color: #fff;
+  padding-top: 216px;
+}
+
+.header-desc p {
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.header-desc h1 {
+  font-size: 100px;
+  line-height: 151px;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-style: normal;
+  height: 147px;
+}
+
+.header-desc button {
+  width: 238px;
+  height: 57px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+main .main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .first-block {
+  width: 564px;
+}
+
+main .first-block h2 {
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 58px;
+  margin-top: 113px;
+}
+
+main .first-block h3 {
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+main .first-block p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main .second-block {
+  width: 564px;
+}
+
+main .second-block h3 {
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  margin-top: 244px;
+}
+
+main .second-block p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main .photos {
+  margin-top: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  margin-top: 114px;
+  margin-bottom: 80px;
+}
+
+footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 543px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-info p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+/*# sourceMappingURL=style.css.map */
